@@ -33,7 +33,7 @@ The repository contains the following files and directories:
 ├── example_scenes.py             # Example Manim scenes for reference
 ├── math.json                     # Sample math problems (input data)
 │
-├── manimlib/                     # Manim rendering engine (local implementation)
+├── mainmlib/                     # Manim rendering engine (local implementation)
 │   ├── __init__.py
 │   ├── animation/                # Animation-related modules
 │   ├── camera/                   # Camera system
