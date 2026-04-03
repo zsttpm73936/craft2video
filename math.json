@@ -1,0 +1,322 @@
+[
+    {
+        "id": 3260,
+        "subfield": "Inequality",
+        "question": "$已知函数 f(x)=|x-2|, g(x)=|2x+3|-|2x-1|.$\n\n<img_7>\n$若f(x+a)\\geq g(x)，求a的取值范围.$",
+        "solution": [
+            "$函数 f(x+a)的图象是由f(x)的图象向左或向右平移 |a| 个单位长度所得，由(1)中图象可知，要使 f(x+a) \\geq g(x)，则需要 f(x) 的图象向左平移 a 个单位长度，且 a>0，当 f(x+a) 的图象过点 (\\frac{1}{2},4) 时， |\\frac{1}{2}+a-2| = 4，解得 a=\\frac{11}{2} ，\\therefore 要使 f(x+a) \\geq g(x)，则 a \\geq \\frac{11}{2},$\n$\\therefore  a 的取值范围为 \\left[\\frac{11}{2},+\\infty \\right)。$\n\n"
+        ],
+        "final_answer": [
+            "$\\left[\\frac{11}{2},+\\infty \\right)$"
+        ],
+        "is_multiple_answer": null,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "context": null
+    },
+    {
+        "id": 3301,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "$已知函数 f(x) = |2x+6| + |2x - 4| - 11，g(x) = - |x - 1|.$\n<img_1635>\n$若g(x+t) \\leq f(x)恒成立，求t的取值范围.$",
+        "solution": [
+            "$若g(x+t) \\leq f(x)恒成立，则y=g(x+t)的图象不在y=f(x)图象的上方，而y=g(x+t)的图象可由y=g(x)的图象平移得到，如图.$\n\n<img_3055>\n\n$当y=g(x+t)的图象的左侧射线过B或在B的下方或y=g(x+t)的图象的右侧射线过A或在A的下方时，g(x+t)的图象不在y=f(x)图象的上方，$\n\n$由(1)可得A(-3,-1), B(2,-1)，$\n\n$当x=-3时，g(x+t)=-|x+t-1|=-|-3+t-1|=-1，解得t=5或t=3(舍去).$\n\n$当x=2时，g(x+t)=-|x+t-1|=-|2+t-1|=-1，解得t=-2或t=0(舍去).结合图象可得t \\leq -2或t \\geq 5.$"
+        ],
+        "final_answer": [
+            "(-\\infty,-2]\\cup[5,+\\infty)"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null
+    },
+    {
+        "id": 3310,
+        "subfield": "Conic Sections",
+        "question": "$已知椭圆C的方程为\\frac{x^2}{a^2} + \\frac{y^2}{3} = 1，斜率为k(k \\neq 0)的直线与𝐶相交于M，N两点.$\n\n<img_2371>\n$在(1)的条件下，若P是椭圆C的左顶点，k_{PM} k_{PN}=-\\frac{1}{4}，F是椭圆的左焦点，要使F在以MN为直径的圆内，求k的取值范围.$",
+        "solution": [
+            "$设MN方程为y=kx+m，则$\n\n$$\n\\left\\{\n\\begin{matrix}\n3x^2+4y^2=12,\\\\ \ny=kx+m,\n\\end{matrix}\n\\right.\n$$\n\n$(3+4k^2)x^2+8kmx+4m^2-12=0，$\n\n$x_1+x_2=\\frac{-8km}{3+4k^2}，$\n\n$x_1x_2=\\frac{4m^2-12}{3+4k^2}，$\n\n$y_1+y_2=k(x_1+x_2)+2m=k \\times \\left(\\frac{-8km}{3+4k^2}\\right)+2m=\\frac{6m}{3+4k^2}，$\n\n$y_1y_2=(kx_1+m) \\cdot (kx_2+m)=k^2x_1x_2+km(x_1+x_2)+m^2=k^2 \\cdot \\frac{4m^2-12}{3+4k^2}+km \\left(\\frac{-8km}{3+4k^2}\\right)+m^2=\\frac{3m^2-12k^2}{3+4k^2}，$\n\n$k_{PM}k_{PN}=\\frac{y_1}{x_1+2} \\cdot \\frac{y_2}{x_2+2}=\\frac{y_1y_2}{(x_1+2)(x_2+2)}=\\frac{y_1y_2}{x_1x_2+2(x_1+x_2)+4}=\\frac{3m^2-12k^2}{4m^2-16km+16k^2}=-\\frac{1}{4}，$\n\n$解得m=2k(舍)或m=-k，$\n\n$若F在以MN为直径的圆内，则\\overrightarrow{FM} \\cdot \\overrightarrow{FN}<0，$\n\n$即\\overrightarrow{FM} \\cdot \\overrightarrow{FN}=(x_1+1,y_1) \\cdot (x_2+1,y_2)=x_1x_2+x_1+x_2+1+y_1y_2<0，$\n\n$即\\frac{4m^2-12}{3+4k^2}-\\frac{8km}{3+4k^2}+\\frac{3m^2-12k^2}{3+4k^2}+1<0，$\n\n$即4k^2-12+8k^2+3k^2-12k^2+3+4k^2<0，$\n\n$即7k^2-9<0且k\\neq 0，$\n\n$解得-\\frac{3\\sqrt{7}}{7}<k<\\frac{3\\sqrt{7}}{7}且k\\neq 0，$\n\n$所以k的取值范围为\\left(\\frac{-3\\sqrt{7}}{7},0\\right)\\cup \\left(0,\\frac{3\\sqrt{7}}{7}\\right).$\n\n"
+        ],
+        "final_answer": [
+            "$\\left(\\frac{-3\\sqrt{7}}{7},0\\right)\\cup \\left(0,\\frac{3\\sqrt{7}}{7}\\right)$"
+        ],
+        "is_multiple_answer": null,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null,
+        "context": null
+    },
+    {
+        "id": 3350,
+        "subfield": "Inequality",
+        "context": null,
+        "question": "$已知函数f(x)=|3x+1|-2|x-1|.$\n\n<img_3081>\n$求不等式f(x) > f(x+1)的解集.$",
+        "solution": [
+            "$函数 y=f(x) 的图象向左平移1个单位长度后得到函数 y=f(x+1) 的图象。$\n\n<img_1685>\n\n$y=f(x) 的图象与 y=f(x+1) 的图象的交点坐标为 \\left(-\\frac{7}{6},-\\frac{11}{6}\\right). $\n\n$由图象可知当且仅当 x < -\\frac{7}{6}时， y=f(x) 的图象在 y=f(x+1) 的图象上方. 故不等式 f(x) > f(x+1) 的解集为 \\left(-\\infty ,-\\frac{7}{6}\\right).$"
+        ],
+        "final_answer": [
+            "$(-\\infty ,-\\frac{7}{6})$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Interval",
+        "error": null
+    },
+    {
+        "id": 3379,
+        "subfield": "Elementary Functions",
+        "question": "如图所示，某海岛码头O离岸边最近点B的距离为150 km，岸边的医药公司A与点B的距离为300 km，现有一批药品要尽快送达海岛码头，已知A与B之间有一条公路，现要用海陆联运的方式运送这批药品，若汽车时速为130 km，快艇时速为50 km，试在岸边选一点C，先将药品用汽车从A运到C，再用快艇从C运到海岛码头.\n\n<img_3128>\n设点C与点B的距离为x，写出运输时间T(x)(单位：h)与x的关系式及x的范围；",
+        "solution": [
+            "$因为OC=\\sqrt{OB^2+BC^2}=\\sqrt{150^2+x^2}，AC=300-x，$\n$所以T(x)=\\frac{\\sqrt{150^2+x^2}}{50}+\\frac{300-x}{130}, 0\\leq x\\leq 300.$\n\n"
+        ],
+        "final_answer": [
+            "$T(x)=\\frac{\\sqrt{150^2+x^2}}{50}+\\frac{300-x}{130}, x \\in [0, 300]$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Expression,Interval",
+        "error": null,
+        "context": null
+    },
+    {
+        "id": 3398,
+        "subfield": "Conic Sections",
+        "context": null,
+        "question": "$在平面直角坐标系xOy中，已知椭圆E：\\frac{x^2}{4}+\\frac{y^2}{3}=1的左、右焦点分别为F_1,F_2,点A在椭圆E上且在第一象限内，AF_2\\perp F_1F_2，直线AF_1与椭圆E相交于另一点B.$\n\n<img_2938>\n$设点M在椭圆E上，记\\triangle OAB与\\triangle MAB的面积分别为S_1，S_2，若S_2=3S_1，求点M的坐标.$",
+        "solution": [
+            "$因为椭圆E：x^2/4 + y^2/3 = 1 的左、右焦点分别为F_1，F_2，点A在椭圆E上且在第一象限内，AF_2 \\perp F_1F_2，所以F_1(-1，0)，F_2(1，0)，A (1,3/2) ，所以直线AB：3x-4y+3=0.$\n\n$设M(x，y)，因为S_2 = 3S_1，所以点M到直线AB的距离等于点O到直线AB的距离的3倍.$\n\n$由此得 |3x-4y+3|/5 = 3 \\times  |3 \\times 0-4 \\times 0+3|/5 ，则3x-4y+12=0或3x-4y-6=0.$\n\n$由 \\begin{cases}3x-4y+12=0 \\\\ x^2/4 + y^2/3 = 1\\end{cases} 得7x^2+24x+32=0，此方程无解；$\n\n$由 \\begin{cases}3x-4y-6=0 \\\\ x^2/4 + y^2/3 = 1\\end{cases} 得7x^2-12x-4=0，所以x=2或x=-2/7.$\n\n$代入直线l：3x-4y-6=0，对应分别得y=0或y=-12/7.$\n\n$因此点M的坐标为(2，0)或 (-2/7, -12/7).$"
+        ],
+        "final_answer": [
+            "$(2，0)， (-2/7, -12/7)$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Tuple",
+        "error": null
+    },
+    {
+        "id": 3406,
+        "subfield": "Conic Sections",
+        "context": null,
+        "question": "$已知点P是椭圆C上的任意一点，P到直线l_1：x＝-2的距离为d_1，与点F(-1，0)的距离为d_2，且\\frac{d_2}{d_1}=\\frac{\\sqrt{2}}{2}.$\n如图，$直线l与椭圆C交于不同的两点A，B (A，B都在x轴上方)，且\\angle OFA＋\\angle OFB=180^\\circ .$\n\n是否存在一个定点，$无论\\angle OFA如何变化，直线l恒过该定点？若存在，求出该定点的坐标.$\n\n<img_2118>",
+        "solution": [
+            "存在满足题意的定点.\n$\\because \\angle OFA＋\\angle OFB＝180^\\circ ，$\n$\\therefore k_{AF}＋k_{BF}＝0，$\n$设直线AB的方程为y＝kx＋b，$\n联立\n$$\n\\left\\{\n\\begin{matrix}\ny=kx+b,\\\\ \n\\frac{x^2}{2}+y^2=1,\n\\end{matrix}\n\\right.\n$$\n$得(2k^{2}+1)x^{2}+4kbx+2b^{2}-2=0，$\n$设A(x_{1},y_{1}),B(x_{2},y_{2})，则x_{1}+x_{2}=-\\frac{4kb}{2k^2+1},x_{1}x_{2}=\\frac{2b^2-2}{2k^2+1}.$\n$k_{AF}＋k_{BF}＝\\frac{y_{1}}{x_{1}+1}+\\frac{y_{2}}{x_{2}+1}=\\frac{kx_{1}+b}{x_{1}+1}+\\frac{kx_{2}+b}{x_{2}+1}=\\frac{2kx_{1}x_{2}+(k+b)(x_{1}+x_{2})+2b}{(x_{1}+1)(x_{2}+1)}＝0，$\n$\\therefore 2kx_{1}x_{2}+(k+b)(x_{1}+x_{2})+2b=2k\\cdot \\frac{2b^2-2}{2k^2+1}+(k+b)\\cdot -\\frac{4kb}{2k^2+1}+2b=0，$\n$\\therefore b-2k＝0，即b=2k，$\n$\\therefore 直线AB的方程为y＝k(x＋2),$\n$\\therefore 直线l恒过定点(-2，0).$"
+        ],
+        "final_answer": [
+            "(-2，0)"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Tuple",
+        "error": null
+    },
+    {
+        "id": 3408,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "question": "$如图，在极坐标系Ox中，A(2，0)，B(\\sqrt{2},\\frac{\\pi }{4})，C(\\sqrt{2},\\frac{3\\pi }{4})，D(2，\\pi )，弧\\overset{\\LARGE{\\frown}}{AB}，\\overset{\\LARGE{\\frown}}{BC}，\\overset{\\LARGE{\\frown}}{CD}所在圆的圆心分别是(1，0)，\\left(1,\\frac{\\pi }{2}\\right)，(1，\\pi )，曲线M_1是弧\\overset{\\LARGE{\\frown}}{AB},曲线M_2是弧\\overset{\\LARGE{\\frown}}{BC}，曲线M_3是弧\\overset{\\LARGE{\\frown}}{CD}.$\n<img_36>\n$曲线M由M_1，M_2，M_3构成，若点P在M上，且|OP|= \\sqrt{3}，求P的所有可能的极坐标.$",
+        "solution": [
+            "根据点P的位置进行分类讨论。\n\n$设P(\\rho ,\\theta )，由题设及(1)知$\n\n$若0\\leq \\theta \\leq {\\frac{\\pi }{4}}，则2\\cos  \\theta ={\\sqrt{3}}，解得\\theta ={\\frac{\\pi }{6}}；(6分)$\n\n$若{\\frac{\\pi }{4}}\\leq \\theta \\leq {\\frac{3\\pi }{4}}，则2\\sin  \\theta ={\\sqrt{3}}，解得\\theta ={\\frac{\\pi }{3}}或\\theta ={\\frac{2\\pi }{3}}；(7分)$\n\n$若{\\frac{3\\pi }{4}}\\leq \\theta \\leq \\pi ，则-2\\cos  \\theta ={\\sqrt{3}}，解得\\theta ={\\frac{5\\pi }{6}}。(8分)$\n\n$综上，P的极坐标为{\\left(\\sqrt{3},\\frac{\\pi }{6}\\right)}或{\\left(\\sqrt{3},\\frac{\\pi }{3}\\right)}或{\\left(\\sqrt{3},\\frac{2\\pi }{3}\\right)}或{\\left(\\sqrt{3},\\frac{5\\pi }{6}\\right)}。(10分)$\n\n"
+        ],
+        "final_answer": [
+            "$\\left(\\sqrt{3},\\frac{\\pi }{6}\\right)，\\left(\\sqrt{3},\\frac{\\pi }{3}\\right)，\\left(\\sqrt{3},\\frac{2\\pi }{3}\\right)，\\left(\\sqrt{3},\\frac{5\\pi }{6}\\right)$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Tuple",
+        "error": null,
+        "context": null
+    },
+    {
+        "id": 3410,
+        "subfield": "Polar Coordinates and Parametric Equations",
+        "question": "$如图，在极坐标系Ox中，点A(4,\\pi )，曲线M是以OA为直径，O_1为圆心的半圆，点B在曲线M上，四边形OBCD是正方形.$\n\n<img_3116>\n$当\\angle AOB=\\frac{\\pi }{6}时，求B，C两点的极坐标；$",
+        "solution": [
+            "$连接AB,OC，因为OA是直径，所以AB\\perp BO，$\n\n<img_2939>\n\n$在Rt\\triangle AOB中，|OA|=4，\\angle AOB= \\frac{\\pi }{6}，$\n\n$\\therefore |OB|=4\\times \\cos \\frac{\\pi }{6}=2\\sqrt{3}，$\n\n$\\therefore 点B的极坐标为\\left(2\\sqrt{3},\\frac{5\\pi }{6}\\right)，$\n\n$在正方形OBCD中，|OC|=\\sqrt{2}|OB|=2\\sqrt{6}，\\angle AOC=\\frac{\\pi }{6}+\\frac{\\pi }{4}=\\frac{5\\pi }{12}，$\n\n$\\therefore 点C的极坐标为\\left(2\\sqrt{6},\\frac{7\\pi }{12}\\right).$\n\n"
+        ],
+        "final_answer": [
+            "$\\left(2\\sqrt{3},\\frac{5\\pi }{6}\\right), \\left(2\\sqrt{6},\\frac{7\\pi }{12}\\right)$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Tuple",
+        "error": null,
+        "context": null
+    },
+    {
+        "id": 3421,
+        "subfield": "Conic Sections",
+        "question": "$如图，已知椭圆C_1：\\frac{x^2}{2}+y^2=1，抛物线C_2：y^2=2px (p>0)，点A是椭圆C_1与抛物线C_2的交点，过点A的直线l交椭圆C_1于点B，交抛物线C_2于点M(B，M不同于A).$\n\n<img_8>\n$若p = \\frac{1}{16}，求抛物线C_2的焦点坐标；$",
+        "solution": [
+            "$由p=\\frac{1}{16}得C_2的焦点坐标是\\left(\\frac{1}{32},0\\right).$\n\n"
+        ],
+        "final_answer": [
+            "$\\left(\\frac{1}{32},0\\right)$"
+        ],
+        "is_multiple_answer": null,
+        "unit": null,
+        "answer_type": "Tuple",
+        "error": null,
+        "context": null
+    },
+    {
+        "id": 3427,
+        "subfield": "Plane Geometry",
+        "question": "$疫情期间,作为街道工作人员的王阿姨和李叔叔需要上门排查外来人员信息,王阿姨和李叔叔分别需走访离家不超过200米、k米的区域,如图,l_1, l_2分别是经过王阿姨家(点)的东西和南北走向的街道,且李叔叔家在王阿姨家的北偏东45^\\circ 方向,以点O为坐标原点, l_1, l_2为x轴、y轴建立平面直角坐标系,已知健康检查点[即点M(100,400)]和平安检查点[即点N(400,700)]是李叔叔负责区域中最远的两个检查点.$\n\n<img_2294>\n$王阿姨和李叔叔为交流疫情信息,需在姑山路(直线l: x-y+1 000=0)上碰头见面,你认为在何处最为便捷、省时间(两人所走的路程之和最短)?请给出坐标.$",
+        "solution": [
+            "$设圆心O关于直线l:x-y+1000=0的对称点为P(a,b)，则有\\frac{a}{2}-\\frac{b}{2}+1000=0, \\frac{b}{a}=-1，$\n解得a=-1000, b=1000, 则P(-1000,1000)，\n$则K_{PC} = \\frac{1000-400}{-1000-400} = -\\frac{3}{7}，$\n$故直线PC的方程为y= -\\frac{3}{7} x + \\frac{4000}{7}，$\n$联立 \\begin{cases}\ny =-\\frac{3}{7}x +\\frac{4000}{7} ,x - y + 1000 = 0, \\end{cases} $\n$解得 \\begin{cases}\nx =-300 ,y =700, \\end{cases} 可得交点坐标为(-300,700)，$\n所以王阿姨和李叔叔为交流疫情信息,可选择在地点(-300,700)碰面,此时两人所走路程之和最短.\n\n"
+        ],
+        "final_answer": [
+            "$(-300,700)$"
+        ],
+        "is_multiple_answer": null,
+        "unit": null,
+        "answer_type": "Tuple",
+        "error": null,
+        "context": null
+    },
+    {
+        "id": 3740,
+        "subfield": "Solid Geometry",
+        "context": null,
+        "question": "$如图，在三棱锥P-ABC中，PA\\perp 底面ABC，\\angle BAC=90^\\circ .点D，E，N分别为棱PA，PC，BC的中点，M是线段AD的中点，PA=AC=4，AB=2.  $\n<img_1564>\n$已知点H在棱PA上，且直线NH与直线BE所成角的余弦值为 \\frac{\\sqrt{7}}{21} ，求线段AH的长.$",
+        "solution": [
+            "$\\overrightarrow{BE}=(-2，2，2).依题意，设AH=h(0\\leq h\\leq 4),$\n\n$则H(0,0,h),进而可得\\overrightarrow{NH}=(-1，-2，h),由已知，得$\n\n$|cos\\langle \\overrightarrow{NH}，\\overrightarrow{BE}\\rangle |= \\frac{|\\overrightarrow{NH} \\cdot \\overrightarrow{BE}|}{|\\overrightarrow{NH}||\\overrightarrow{BE}|} = \\frac{|2h-2|}{\\sqrt{h^2+5} \\times 2\\sqrt{3}} = \\frac{\\sqrt{7}}{21},整理得10h^2-21h+8=0,解得h= \\frac{8}{5} 或h= \\frac{1}{2}.$\n\n$所以线段AH的长为 \\frac{8}{5} 或 \\frac{1}{2}.$\n\n<img_1538>"
+        ],
+        "final_answer": [
+            "$\\frac{8}{5}，\\frac{1}{2}.$"
+        ],
+        "is_multiple_answer": true,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null
+    },
+    {
+        "id": 3746,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "$某大学艺术专业400名学生参加某次测评，根据男女学生人数比例，使用分层抽样的方法从中随机抽取了100名学生，记录他们的分数，将数据分成7组：[20，30)，[30，40)，\\ldots ,[80,90],并整理得到如下频率分布直方图：$\n\n<img_175>\n已知样本中有一半男生的分数不小于70，且样本中分数不小于70的男女生人数相等.试估计总体中男生和女生人数比的值.",
+        "solution": [
+            "$由题意可知，样本中分数不小于70的学生人数为(0.02+0.04)\\times 10\\times 100=60,$\n\n$所以样本中分数不小于70的男生人数为60\\times \\frac{1}{2}=30.$\n\n$所以样本中的男生人数为30\\times 2=60,女生人数为100-60=40,故男生和女生人数的比例为60:40=3:2.$\n\n所以总体中男生和女生人数的比例估计为3:2."
+        ],
+        "final_answer": [
+            "$3/2$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null
+    },
+    {
+        "id": 3762,
+        "subfield": "Solid Geometry",
+        "context": null,
+        "question": "$如图，已知三棱柱ABC-A_1B_1C_1的底面是正三角形，侧面BB_1C_1C是矩形，M，N分别为BC，B_1C_1的中点，P为AM上一点.过B_1C_1和P的平面交AB于E，交AC于F.$\n\n<img_19>\n$设O为\\triangle A_1B_1C_1的中心.若AO\\parallel 平面EB_1C_1F，且AO=AB，求直线B_1E与平面A_1AMN所成角的正弦值.$",
+        "solution": [
+            "$由已知得AM\\perp BC.以M为坐标原点，\\overrightarrow{MA}的方向为x轴正方向，|\\overrightarrow{MB}为单位长，建立如图所示的空间直角坐标系M-xyz，则AB=2，AM=\\sqrt{3}.$\n<img_355>\n$连接NP，则四边形AONP为平行四边形，故PM=\\frac{2\\sqrt{3}}{3}，E(\\frac{2\\sqrt{3}}{3},\\frac{1}{3},0).由(1)知平面A_1AMN\\perp 平面ABC，作NQ\\perp AM，垂足为Q，则NQ\\perp 平面ABC.$\n$设Q(a，0，0)，则NQ=\\sqrt{4-(\\frac{2\\sqrt{3}}{3}-a)^2}，$\n$B_1(a,1,\\sqrt{4-(\\frac{2\\sqrt{3}}{3}-a)^2})，$\n$故\\overrightarrow{B1E}=\\left(\\frac{2\\sqrt{3}}{3}-a,-\\frac{2}{3},{}{-\\sqrt{4-(\\frac{2\\sqrt{3}}{3}-a)^2}}\\right)，$\n$|\\overrightarrow{B1E}|=\\frac{2\\sqrt{10}}{3}.$\n$又n=(0，-1，0)是平面A_1AMN的法向量，故sin\\left(\\frac{\\pi }{2}-\\langle n,\\overrightarrow{B1E}\\rangle \\right)=cos\\langle n，\\overrightarrow{B1E}\\rangle =\\frac{n\\cdot\\overrightarrow{B1E}}{|n|\\cdot|\\overrightarrow{B1E}|}=\\frac{\\sqrt{10}}{10}.$\n$所以直线B_1E与平面A_1AMN所成角的正弦值为\\frac{\\sqrt{10}}{10}.$"
+        ],
+        "final_answer": [
+            "$\\frac{\\sqrt{10}}{10}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null
+    },
+    {
+        "id": 3763,
+        "subfield": "Solid Geometry",
+        "context": null,
+        "question": "$如图，已知三棱柱ABC-A_1B_1C_1的底面是正三角形，侧面BB_1C_1C是矩形，M，N分别为BC，B_1C_1的中点，P为AM上一点.过B_1C_1和P的平面交AB于E，交AC于F.$\n\n<img_19>\n$设O为\\triangle A_1B_1C_1的中心.若AO=AB=6，AO\\parallel 平面EB_1C_1F，且\\angle MPN= \\frac{\\pi }{3}，求四棱锥B-EB_1C_1F的体积.$",
+        "solution": [
+            "$AO \\parallel  平面 EB_{1}C_{1}F，AO \\subset  平面 A_{1}AMN，平面 A_{1}AMN \\cap  平面 EB_{1}C_{1}F = PN，所以 AO \\parallel  PN。又 AP \\parallel  ON，所以四边形 APNO 是平行四边形，所以 PN = AO = 6，AP = ON = \\frac{1}{3} AM = \\sqrt{3}，PM =\\frac{2}{3} AM = 2\\sqrt{3}，EF = \\frac{1}{3} BC = 2。$\n\n$易证 BC \\parallel  平面 EB_{1}C_{1}F，$\n$所以四棱锥B-EB_{1}C_{1}F的顶点B到底面EB_{1}C_{1}F的距离等于点M到底面EB_{1}C_{1}F的距离.$\n\n$作 MT \\perp  PN，垂足为 T，则由(1)知，MT \\perp  平面 EB_{1}C_{1}F，$\n$故 MT = PM sin \\angle  MPN = 3.$\n\n$底面 EB_{1}C_{1}F 的面积为 \\frac{1}{2} (B_{1}C_{1} + EF) \\cdot  PN = \\frac{1}{2} (6 + 2) \\times  6 = 24。所以四棱锥 B-EB_{1}C_{1}F 的体积为 \\frac{1}{3} \\times  24 \\times  3 = 24.$"
+        ],
+        "final_answer": [
+            "$24$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null
+    },
+    {
+        "id": 3764,
+        "subfield": "Solid Geometry",
+        "context": null,
+        "question": "$在四棱锥Q-ABCD中，底面ABCD是正方形，若AD=2，QD=QA=\\sqrt{5}，QC=3.$\n\n<img_155>\n求二面角B-QD-A的余弦值.",
+        "solution": [
+            "建立空间直角坐标系，如图所示，\n<img_342>\n则B(2，-1，0)，Q(0，0，2)，D(0，1，0)，\n$所以\\overrightarrow{BQ}=(-2，1，2)，\\overrightarrow{BD}=(-2，2，0)。显然，平面QAD的一个法向量为n_1=(1,0,0)，$\n$设平面BQD的法向量为n_2=(x,y,z)，$\n则\n$$\n\\left\\{\n\\begin{matrix}\n\\boldsymbol{n}_2 \\cdot B\\overrightarrow{Q}=0,\\\\ \n\\boldsymbol{n}_2 \\cdot B\\overrightarrow{D}=0\n\\end{matrix}\n\\right.\n$$\n\\Rightarrow \n$$\n\\left\\{\n\\begin{matrix}\n-2x+y+2z=0,\\\\ \n-2x+2y=0\n\\end{matrix}\n\\right.\n$$\n$\\Rightarrow x=y=2z.$\n$取n_2=(2,2,1).$\n$设二面角B-QD-A的平面角为\\theta ，易知\\theta 为锐角，$\n$则 cos \\theta =|cos\\langle n_1，n_2\\rangle |=$\n$\\frac{|\\boldsymbol{n}_1 \\cdot \\boldsymbol{n}_2|}{|\\boldsymbol{n}_1||\\boldsymbol{n}_2|}=$\n$\\frac{2}{1 \\times 3}=$\n$\\frac{2}{3}.$"
+        ],
+        "final_answer": [
+            "$\\frac{2}{3}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null
+    },
+    {
+        "id": 3765,
+        "subfield": "Solid Geometry",
+        "context": null,
+        "question": "$如图，在四棱锥P-ABCD中，底面ABCD是边长为2的菱形，\\angle DAB=60^\\circ ，PA = PD = \\sqrt{5}, F为AB的中点，AC\\perp PF.$\n<img_364>\n求点A到平面PDF的距离.",
+        "solution": [
+            "$\\because AB=AD，\\angle DAB=60^\\circ ，$\n$\\therefore \\triangle ABD为正三角形，\\therefore BO\\perp AD,$\n$由(1)可知AD、OB、PO两两垂直，建立如图②所示的空间直角坐标系，$\n\n<img_244>\n\n图②\n\n$则P(0,0,2),D(-1,0,0),F\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right),A(1,0,0)，$\n$\\therefore \\overrightarrow{PD}=(-1,0,-2),\\overrightarrow{PF}=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},-2\\right),\\overrightarrow{AD}=(-2,0,0)，$\n$设向量n=(x,y,z)为平面PDF的一个法向量，$\n则$\n\\left\\{\n\\begin{matrix}\n\\boldsymbol{n} \\cdot \\overrightarrow{PD}=0,\\\\\n\\boldsymbol{n} \\cdot \\overrightarrow{PF}=0,\n\\end{matrix}\n\\right. \n$\n即$\n\\left\\{\n\\begin{matrix}\n-x-2z=0,\\\\\n\\frac{1}{2}x+\\frac{\\sqrt{3}}{2}y-2z=0,\n\\end{matrix}\n\\right. \n$\n$取x=2，则y=-2\\sqrt{3},z=-1，所以n=(2,-2\\sqrt{3},-1)，$\n$故点A到平面PDF的距离d=\\frac{|\\overrightarrow{AD} \\cdot \\boldsymbol{n}|}{|\\boldsymbol{n}|}=\\frac{4}{\\sqrt{17}}=\\frac{4\\sqrt{17}}{17}.$"
+        ],
+        "final_answer": [
+            "$\\frac{4\\sqrt{17}}{17}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null
+    },
+    {
+        "id": 3766,
+        "subfield": "Solid Geometry",
+        "context": null,
+        "question": "$如图，在四棱锥P-ABCD中，底面ABCD为直角梯形，AB\\parallel CD，\\angle ABC=90^\\circ ，AB=2BC=2CD=2，\\triangle ADP为等边三角形，且平面ADP\\perp 底面ABCD.$\n\n<img_301>\n求平面PAD与平面PBC所成二面角的余弦值.",
+        "solution": [
+            "$由(1)可知，PO\\perp OM，以O为坐标原点，向量\\overrightarrow{MB}，\\overrightarrow{OM}，\\overrightarrow{OP}的方向分别作为x，y，z轴的正方向建立如图所示的空间直角坐标系O-xyz，$\n\n<img_69>\n\n$则O(0,0,0)，B(\\frac{1}{2},\\frac{3}{2},0)，C(-\\frac{1}{2},\\frac{3}{2},0)，A(\\frac{1}{2},-\\frac{1}{2},0)，D(-\\frac{1}{2},\\frac{1}{2},0)，P(0,0,\\frac{\\sqrt{6}}{2})，$\n\n$所以\\overrightarrow{AD}=(-1,1,0)，\\overrightarrow{OP}=(0,0,\\frac{\\sqrt{6}}{2})，\\overrightarrow{CB}=(1,0,0)，$\n\n$\\overrightarrow{BP}=(-\\frac{1}{2},-\\frac{3}{2},\\frac{\\sqrt{6}}{2})，$\n\n$设\\boldsymbol{m}=(x_1,y_1,z_1)为平面PAD的一个法向量，$\n\n$则\\left\\{\\begin{matrix}\\boldsymbol{m} \\cdot \\overrightarrow{AD}=0,\\\\ \\boldsymbol{m} \\cdot \\overrightarrow{OP}=0,\\end{matrix}\\right.即\\left\\{\\begin{matrix}-x_1+y_1=0,\\\\ \\frac{\\sqrt{6}}{2}z_1=0,\\end{matrix}\\right.$\n\n$令x_1=1，则\\boldsymbol{m}=(1,1,0).$\n\n$设\\boldsymbol{n}=(x_2,y_2,z_2)为平面PBC的一个法向量，$\n\n$则\\left\\{\\begin{matrix}\\boldsymbol{n} \\cdot \\overrightarrow{CB}=0,\\\\ \\boldsymbol{n} \\cdot \\overrightarrow{BP}=0,\\end{matrix}\\right.即\\left\\{\\begin{matrix}x_2=0,\\\\ -\\frac{1}{2}x_2-\\frac{3}{2}y_2+\\frac{\\sqrt{6}}{2}z_2=0,\\end{matrix}\\right.令z_2=\\sqrt{6}，$\n\n$则\\boldsymbol{n}=(0,2,\\sqrt{6}).$\n\n$故cos\\langle \\boldsymbol{m},\\boldsymbol{n}\\rangle =\\frac{\\boldsymbol{m} \\cdot \\boldsymbol{n}}{|\\boldsymbol{m}||\\boldsymbol{n}|}=\\frac{2}{\\sqrt{2} \\times \\sqrt{10}}=\\frac{\\sqrt{5}}{5}，$\n\n$由图可知平面PAD与平面PBC所成的二面角为锐角，$\n\n$所以平面PAD与平面PBC所成的二面角的余弦值为\\frac{\\sqrt{5}}{5}.$"
+        ],
+        "final_answer": [
+            "$\\frac{\\sqrt{5}}{5}$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null
+    },
+    {
+        "id": 3778,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "数学建模是高中数学核心素养的一个组成部分，数学建模能力是应用意识和创新意识的重要表现.为全面推动数学建模活动的开展，某学校举行了一次数学建模竞赛活动，已知该竞赛共有60名学生参加，他们成绩的频率分布直方图如图.\n\n<img_324>\n\n$附：若随机变量X～N(\\mu , \\sigma ^2),则P(\\mu -\\sigma ＜X\\leq \\mu +\\sigma )\\approx 0.682 7，P(\\mu -2\\sigma ＜X\\leq \\mu +2\\sigma )\\approx 0.954 5，P(\\mu -3\\sigma ＜X\\leq \\mu +3\\sigma )\\approx 0.997 3.$\n$已知这60名学生的数学建模竞赛成绩X服从正态分布N(\\mu ,\\sigma ^2)，其中\\mu 可用样本平均数近似代替，\\sigma ^2可用样本方差近似代替(每组数据以区间的中点值作代表)，若本次数学建模竞赛满分为100分，成绩在46分以上的学生均能得到奖励，试估计此次竞赛中得到奖励的人数.(结果根据四舍五入保留到整数位)$",
+        "solution": [
+            "$由题意可知，\\mu =(30\\times 0.005+50\\times 0.015+70\\times 0.02+90\\times 0.01)\\times 20=64, \\sigma ^2=(30-64)^2\\times 0.1+(50-64)^2\\times 0.3+(70-64)^2\\times 0.4+(90-64)^2\\times 0.2=324，所以\\sigma =18.$\n\n$由X服从正态分布N(\\mu ,\\sigma ^2)，得P(64-18＜X\\leq 64+18)=P(46＜X\\leq 82)\\approx 0.682 7，然后P(X＞82)=\\frac{1}{2}\\times (1-0.682 7)=0.158 65, P(X＞46)=0.682 7+0.158 65=0.841 35，60\\times 0.841 35\\approx 50，所以估计此次竞赛中得到奖励的人数为50.$"
+        ],
+        "final_answer": [
+            "$50$"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null
+    },
+    {
+        "id": 3782,
+        "subfield": "Probability and Statistics",
+        "context": null,
+        "question": "$某校为了了解学生每天完成数学作业所需的时间收集了相关数据(单位：分钟)，并将所得数据绘制成频率分布直方图，其中，学生完成数学作业时间的范围是(0,100](单位：分钟)．其统计数据分组区间为(0,20)，[20,40)，[40,60)，[60,80)，[80,100]．$\n\n<img_259>\n$求直方图中x的值；$",
+        "solution": [
+            "$由直方图中小矩形面积之和为1，可得20x+0.025\\times 20+0.006 5\\times 20+0.003\\times 2\\times 20=1，解得x=0.012 5.$"
+        ],
+        "final_answer": [
+            "0.0125"
+        ],
+        "is_multiple_answer": false,
+        "unit": null,
+        "answer_type": "Numerical",
+        "error": null
+    }
+]
