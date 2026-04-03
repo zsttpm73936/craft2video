@@ -25,7 +25,7 @@ This repository focuses on demonstrating the **text-to-code-to-video workflow** 
 # 2. Repository Structure
 
 The repository contains the following files and directories:
-
+```
 ├── run.py                         # Main entry point for the pipeline
 ├── generate_code.py              # Core module: text → Manim code generation
 ├── generated_scene.py            # Auto-generated Manim script (overwritten each run)
@@ -86,7 +86,7 @@ The repository contains the following files and directories:
 │   │   └── test_ids.json         # Test split indices
 │   │
 │   └── README.md                 # Dataset description and usage instructions
-
+```
 
 ---
 
