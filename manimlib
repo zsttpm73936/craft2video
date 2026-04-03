@@ -1,1 +1,44 @@
+from manimlib import *
 
+class SimpleScene(Scene):
+    def construct(self):
+        # 创建文本
+        text = Text("Hello, Manim")
+
+        # 创建一条直线
+        line = Line(LEFT, RIGHT)
+
+        # 播放动画：写入文本
+        self.play(Write(text))
+
+        # 等待一秒
+        self.wait(1)
+
+        # 播放动画：创建直线
+        self.play(Create(line))
+
+        # 再等待一秒
+        self.wait(1)
+
+from manimlib import *
+
+class LineExample(Scene):
+    def construct(self):
+        # 坐标轴
+        axes = Axes()
+
+        # 绘制函数 y = 2x
+        graph = axes.get_graph(lambda x: 2*x, color=BLUE)
+
+        # 点 (1,2)
+        dot = Dot(axes.c2p(1, 2), color=RED)
+
+        # 标签
+        label = Text("(1,2)").next_to(dot, UP)
+
+        # 动画过程
+        self.play(Create(axes))
+        self.play(Create(graph))
+        self.play(FadeIn(dot), Write(label))
+
+        self.wait(2)
